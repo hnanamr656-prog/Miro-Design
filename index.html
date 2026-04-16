@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miro Design</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+  margin:0;
+  background:linear-gradient(135deg,#f7f1e8,#e6d8c3);
+  font-family:Arial, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+/* إطار التطبيق */
+.app{
+  width:380px;
+  height:90vh;
+  background:#fffaf4;
+  border-radius:35px;
+  overflow:hidden;
+  box-shadow:0 0 30px rgba(0,0,0,0.08);
+  display:flex;
+  flex-direction:column;
+}
+
+/* الهيدر */
+.header{
+  text-align:center;
+  padding:18px;
+  background:#f1e5d3;
+  color:#5c4632;
+  font-size:22px;
+  font-weight:bold;
+}
+
+/* المحتوى */
+.container{
+  padding:18px;
+  overflow-y:auto;
+}
+
+/* اللوجو */
+.logo img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  display:block;
+  margin:auto;
+  object-fit:cover;
+}
+
+/* الأيقونات */
+.social-icons{
+  text-align:center;
+  margin:18px 0;
+}
+
+.social-icons a{
+  color:#7a5d44;
+  font-size:22px;
+  margin:0 12px;
+  transition:0.3s;
+}
+
+.social-icons a:hover{
+  color:#b58b63;
+  transform:scale(1.15);
+}
+
+/* اللينكات */
+.link{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#ffffff;
+  padding:15px;
+  margin:12px 0;
+  border-radius:14px;
+  color:#5c4632;
+  text-decoration:none;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.link:hover{
+  background:#f2e4d0;
+  transform:scale(1.02);
+}
+
+/* زر تيليجرام */
+.telegram-btn{
+  background:#d8c2a6;
+}
+
+.telegram-btn:hover{
+  background:#ccb08d;
+}
+
+/* الفوتر */
+.footer{
+  text-align:center;
+  font-size:11px;
+  color:#8a7157;
+  padding:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+<!-- Header -->
+<div class="header">
+  Miro Design
+</div>
+
+<div class="container">
+
+<!-- Logo -->
+<div class="logo">
+  <img src="logo.jpeg" alt="Logo">
+</div>
+
+<!-- Social Icons -->
+<div class="social-icons">
+  <a href="https://www.facebook.com/share/1L2LbqVSHG/">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <a href="https://vm.tiktok.com/ZS9L8Ahs7KDuo-Dit8j/">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <a href="https://www.instagram.com/miro_design1?igsh=Zm1yNGdmd3drOXNx">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://whatsapp.com/channel/0029Vb7LqTx8F2pKSe70Bt3J">
+    <i class="fab fa-telegram"></i>
+  </a>
+</div>
+
+<!-- Facebook -->
+<a class="link" href="https://www.facebook.com/share/1L2LbqVSHG/">
+  <span>Facebook</span>
+  <i class="fab fa-facebook"></i>
+</a>
+
+<!-- TikTok -->
+<a class="link" href="https://vm.tiktok.com/ZS9L8Ahs7KDuo-Dit8j/">
+  <span>TikTok</span>
+  <i class="fab fa-tiktok"></i>
+</a>
+
+<!-- Instagram -->
+<a class="link" href="https://www.instagram.com/miro_design1?igsh=Zm1yNGdmd3drOXNx">
+  <span>Instagram</span>
+  <i class="fab fa-instagram"></i>
+</a>
+
+<!-- WhatsApp -->
+<a class="link" href="https://wa.me/201282749945">
+  <span>WhatsApp</span>
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Telegram -->
+<a class="link telegram-btn" href="https://whatsapp.com/channel/0029Vb7LqTx8F2pKSe70Bt3J">
+  <span>Telegram</span>
+  <i class="fab fa-telegram"></i>
+</a>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  © Miro Design 2026
+</div>
+
+</div>
+
+</body>
+</html>
